@@ -5,7 +5,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Calculator.csproj">
+  <Project Path="Calculator.csproj" Id="6e5cdbf2-4fae-4cf6-9ac2-0e48a8494af0">
     <Platform Solution="*|ARM" Project="ARM" />
     <Platform Solution="*|ARM64" Project="ARM64" />
     <Platform Solution="*|x64" Project="x64" />
