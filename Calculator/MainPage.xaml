@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="HotPink">
 
-    <Grid>
+    <Grid Background="DeepPink" Margin="100" CornerRadius="1000" >
 
     </Grid>
 </Page>
