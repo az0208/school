@@ -46,8 +46,24 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="almog caculator" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="7" FontSize="78" Grid.RowSpan="3" FontFamily="Arial Narrow" TextAlignment="Center" FontStyle="Italic"></TextBlock>
-        <Button x:Name="digit1" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="1" FontSize="60" BorderBrush="LightPink" BorderThickness="5" ></Button>
-        <Button x:Name="digit2" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="2" FontSize="60" BorderBrush="LightPink" BorderThickness="5" ></Button>
+        <TextBlock Text="almog's caculator" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="7" FontSize="78" Grid.RowSpan="3" FontFamily="Bahnschrift" TextAlignment="Center" FontStyle="Italic"></TextBlock>
+        <Button x:Name="digit1" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="1" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit2" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="2" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit3" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="3" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit4" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="4" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit5" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="5" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit6" Grid.Row="4" Grid.Column="7" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="6" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit7" Grid.Row="4" Grid.Column="8" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="7" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit8" Grid.Row="4" Grid.Column="9" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="8" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit9" Grid.Row="4" Grid.Column="10" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="9" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="digit0" Grid.Row="4" Grid.Column="11" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="0" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
+        <Button x:Name="signplus" Grid.Row="8" Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="+" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signminus" Grid.Row="8" Grid.Column="4" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="-" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signmulti" Grid.Row="8" Grid.Column="5" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="X" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signdivide" Grid.Row="8" Grid.Column="6" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="%" FontSize="60" BorderBrush="LightPink" BorderThickness="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signC" Grid.Row="4" Grid.Column="12" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="C" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signequals" Grid.Row="8" Grid.Column="12" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="=" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signdot" Grid.Row="8" Grid.Column="7" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="." FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signDEL" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="DEL" FontSize="35" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
     </Grid>
 </Page>
