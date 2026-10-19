@@ -46,7 +46,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="almog's caculator" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="7" FontSize="78" Grid.RowSpan="4" FontFamily="Bahnschrift" TextAlignment="Center" FontStyle="Italic"></TextBlock>
+        <TextBlock Text="almog's caculator" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="7" FontSize="78" Grid.RowSpan="4" FontFamily="Berlin Sans FB Demi" TextAlignment="Center" FontStyle="Normal"></TextBlock>
         <Button x:Name="digit1" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="1" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
         <Button x:Name="digit2" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="2" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
         <Button x:Name="digit3" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="3" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Button>
