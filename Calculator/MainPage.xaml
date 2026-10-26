@@ -66,6 +66,20 @@
         <Button x:Name="signdot" Grid.Row="8" Grid.Column="7" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="." FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
         <Button x:Name="signDEL" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="DEL" FontSize="35" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
         <Button x:Name="signtut" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="?" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
-        <Button x:Name="signsuprise" Grid.Row="12" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="3" Content="(:" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Button x:Name="signsuprise" Grid.Row="0" Grid.Column="11" Grid.ColumnSpan="1" Grid.RowSpan="3" Content=":)" FontSize="60" BorderBrush="LightPink" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Button>
+        <Border Grid.Row="12" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="3" BorderBrush="LightPink" BorderThickness="10">
+            <TextBlock x:Name="FirstNumberTXT" Text="1st Number" FontSize="45" TextAlignment="Center" ></TextBlock></Border>
+        <Border Grid.Row="12" Grid.Column="5" Grid.ColumnSpan="1" Grid.RowSpan="3" BorderBrush="LightPink" BorderThickness="10">
+            <TextBlock x:Name="OperatorTXT" Text="Opp" FontSize="45" TextAlignment="Center" ></TextBlock>
+        </Border>
+        <Border Grid.Row="12" Grid.Column="6" Grid.ColumnSpan="3" Grid.RowSpan="3" BorderBrush="LightPink" BorderThickness="10">
+            <TextBlock x:Name="SecondNumberTXT" Text="2nd Number" FontSize="45" TextAlignment="Center" ></TextBlock>
+        </Border>
+        <Border Grid.Row="12" Grid.Column="9" Grid.ColumnSpan="1" Grid.RowSpan="3">
+            <TextBlock Text="=" FontSize="45" TextAlignment="Center" ></TextBlock>
+        </Border>
+        <Border Grid.Row="12" Grid.Column="10" Grid.ColumnSpan="3" Grid.RowSpan="3" BorderBrush="LightPink" BorderThickness="10">
+            <TextBlock x:Name="AnswerTXT" Text="Answer" FontSize="45" TextAlignment="Center" ></TextBlock>
+        </Border>
     </Grid>
 </Page>
