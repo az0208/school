@@ -26,5 +26,112 @@ namespace Calculator
         {
             this.InitializeComponent();
         }
+
+        private void digit1_Click(object sender, RoutedEventArgs e)
+        {
+            if(OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "1";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "1";
+            }
+        }
+
+        private void digit2_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void digit3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void digit0_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signplus_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signminus_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signmulti_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signdivide_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signC_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signequals_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signdot_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signDEL_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signtut_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void signsuprise_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

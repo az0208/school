@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace classsworkything43
 {
-    internal class Table
+    public class Table
     {
         private int line;
         private char tur;

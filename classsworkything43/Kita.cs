@@ -6,15 +6,30 @@ using System.Threading.Tasks;
 
 namespace classsworkything43
 {
-    internal class Kita
+    public class Kita
     {
         private int count;
         private Table[] t = new Table[35];
-        public Kita(int count, Table[] t)
+        public Kita()
         {
-            this.count = count;
-            this.t = t;
+            this.count = 0;
+            this.t = new Table[35];
         }
-
+        public int Getcount()
+        {
+            return count;
+        }
+        public int HowMany()
+        {
+            return this.count;
+        }
+        public bool IsOk(int n)
+        {
+            if (n <= count * 2)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
