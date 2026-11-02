@@ -41,47 +41,110 @@ namespace Calculator
 
         private void digit2_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "2";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "2";
+            }
         }
 
         private void digit3_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "3";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "3";
+            }
         }
 
         private void digit4_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "4";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "4";
+            }
         }
 
         private void digit5_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "5";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "5";
+            }
         }
 
         private void digit6_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "6";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "6";
+            }
         }
 
         private void digit7_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "7";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "7";
+            }
         }
 
         private void digit8_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "8";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "8";
+            }
         }
 
         private void digit9_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "9";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "9";
+            }
         }
 
         private void digit0_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text += "0";
+            }
+            else
+            {
+                SecondNumberTXT.Text += "0";
+            }
         }
 
         private void signplus_Click(object sender, RoutedEventArgs e)
