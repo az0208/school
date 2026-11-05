@@ -149,41 +149,115 @@ namespace Calculator
 
         private void signplus_Click(object sender, RoutedEventArgs e)
         {
-
+            if(OperatorTXT.Text == string.Empty)
+            {
+                OperatorTXT.Text = "+";
+            }
         }
 
         private void signminus_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                OperatorTXT.Text = "-";
+            }
         }
 
         private void signmulti_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                OperatorTXT.Text = "X";
+            }
         }
 
         private void signdivide_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty)
+            {
+                OperatorTXT.Text = "/";
+            }
         }
 
         private void signC_Click(object sender, RoutedEventArgs e)
         {
-
+            OperatorTXT.Text = string.Empty;
+            FirstNumberTXT.Text = string.Empty;
+            SecondNumberTXT.Text = string.Empty;
+            AnswerTXT.Text = string.Empty;
         }
 
         private void signequals_Click(object sender, RoutedEventArgs e)
         {
+            if(FirstNumberTXT.Text != string.Empty && SecondNumberTXT.Text != string.Empty && OperatorTXT.Text != string.Empty)
+            {
+                if(SecondNumberTXT.Text != "0")
+                {
+                    double num1;
+                    double num2;
+                    double answer;
+                    num1 = double.Parse(FirstNumberTXT.Text);
+                    num2 = double.Parse(SecondNumberTXT.Text);
+                    if (OperatorTXT.Text == "+")
+                    {
+                        answer = num1 + num2;
+                        AnswerTXT.Text = answer.ToString();
+                    }
+                    if (OperatorTXT.Text == "-")
+                    {
+                        answer = num1 - num2;
+                        AnswerTXT.Text = answer.ToString();
+                    }
+                    if (OperatorTXT.Text == "X")
+                    {
+                        answer = num1 * num2;
+                        AnswerTXT.Text = answer.ToString();
+                    }
+                    if (OperatorTXT.Text == "/")
+                    {
+                        answer = num1 / num2;
+                        AnswerTXT.Text = answer.ToString();
+                    }
+                }
+                else
+                {
+                    AnswerTXT.Text = "Math Error";
+                }
+            }
+            else
+            {
+                AnswerTXT.Text = "Missing Data";
+            }
+            
 
         }
 
         private void signdot_Click(object sender, RoutedEventArgs e)
         {
-
+            if (OperatorTXT.Text == string.Empty && !FirstNumberTXT.Text.Contains("."))
+            {
+                FirstNumberTXT.Text += ".";
+            }
+            if (OperatorTXT.Text != string.Empty && !SecondNumberTXT.Text.Contains("."))
+            {
+                SecondNumberTXT.Text += ".";
+            }
         }
 
         private void signDEL_Click(object sender, RoutedEventArgs e)
         {
+            if (OperatorTXT.Text == string.Empty && FirstNumberTXT.Text != string.Empty && AnswerTXT.Text == string.Empty)
+            {
+                FirstNumberTXT.Text = FirstNumberTXT.Text.Substring(0, FirstNumberTXT.Text.Length - 1);
+            }
+            if (OperatorTXT.Text != string.Empty && SecondNumberTXT.Text == string.Empty && AnswerTXT.Text == string.Empty)
+            {
+                OperatorTXT.Text = OperatorTXT.Text.Substring(0, OperatorTXT.Text.Length - 1);
+            }
+            if (SecondNumberTXT.Text != string.Empty && AnswerTXT.Text == string.Empty)
+            {
+                SecondNumberTXT.Text = SecondNumberTXT.Text.Substring(0, SecondNumberTXT.Text.Length - 1);
+            }
 
         }
 
@@ -195,6 +269,18 @@ namespace Calculator
         private void signsuprise_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void signanswer_Click(object sender, RoutedEventArgs e)
+        {
+            
+            if (AnswerTXT.Text != string.Empty)
+            {
+                FirstNumberTXT.Text = AnswerTXT.Text;
+                SecondNumberTXT.Text = string.Empty;
+                OperatorTXT.Text = string.Empty;
+                AnswerTXT.Text = string.Empty;
+            }
         }
     }
 }
