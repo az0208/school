@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="HotPink">
 
-    <Grid Background="DeepPink" Margin="100" CornerRadius="200" >
+    <Grid x:Name="MainGrid" Background="DeepPink" Margin="100" CornerRadius="200" >
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>

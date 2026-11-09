@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -261,14 +262,78 @@ namespace Calculator
 
         }
 
-        private void signtut_Click(object sender, RoutedEventArgs e)
+        private async void signtut_Click(object sender, RoutedEventArgs e)
         {
+            ContentDialog dialog = new ContentDialog();
+            dialog.Content = new TextBlock
+            {
+                Text = "דף עזרה\n\n" +
+               "1. לחצו על מספר בשביל להכניס מספר ראשון למחשבון.\n\n" +
+               "2. בחרו פעולת חשבון.\n\n" +
+               "3. הכניסו מספר נוסף בשביל להכניס מספר שני למחשבון.\n\n" +
+               "4. לחצו על = כדי לקבל תוצאה.\n\n" +
+               "5. לחצו על C כדי לנקות את המחשבון.\n\n" +
+               "6. לחצו על Ans כדי להשתמש בתוצאה האחרונה שחישבתם.\n\n" +
+               "7. לחצו על Del כדי למחוק את הספרה האחרונה שהכנסתם.\n\n" +
+               "8. תגלו מה כפתור ההפתעה עושה.",
+                TextWrapping = TextWrapping.Wrap,
+                FontSize = 10
+            };
 
+            dialog.Background = new SolidColorBrush(
+                Windows.UI.Colors.LightPink
+            );
+
+            dialog.CloseButtonText = "סגור";
+
+            await dialog.ShowAsync();
         }
 
         private void signsuprise_Click(object sender, RoutedEventArgs e)
         {
+            Random random = new Random();
 
+            Windows.UI.Color[] colors =
+            {
+                Windows.UI.Colors.Red,
+                Windows.UI.Colors.Blue,
+                Windows.UI.Colors.Green,
+                Windows.UI.Colors.Yellow,
+                Windows.UI.Colors.Purple,
+                Windows.UI.Colors.DarkRed,
+                Windows.UI.Colors.Orange,
+                Windows.UI.Colors.Pink,
+                Windows.UI.Colors.Cyan,
+                Windows.UI.Colors.Magenta,
+                Windows.UI.Colors.Brown,
+                Windows.UI.Colors.Gray,
+                Windows.UI.Colors.LightBlue,
+                Windows.UI.Colors.LightGreen,
+                Windows.UI.Colors.LightPink,
+                Windows.UI.Colors.DarkBlue,
+                Windows.UI.Colors.DarkGreen,
+                Windows.UI.Colors.DarkOrange,
+                Windows.UI.Colors.DarkViolet,
+                Windows.UI.Colors.Gold,
+                Windows.UI.Colors.Turquoise,
+                Windows.UI.Colors.Coral,
+                Windows.UI.Colors.Salmon,
+                Windows.UI.Colors.Khaki,
+                Windows.UI.Colors.Plum,
+                Windows.UI.Colors.Orchid,
+                Windows.UI.Colors.Tan,
+                Windows.UI.Colors.Lime,
+                Windows.UI.Colors.Teal,
+                Windows.UI.Colors.Silver,
+                Windows.UI.Colors.DeepPink,
+                Windows.UI.Colors.Azure,
+                Windows.UI.Colors.LightPink
+
+            };
+
+            MainGrid.Background = new SolidColorBrush(
+                colors[random.Next(colors.Length)]
+            );
         }
 
         private void signanswer_Click(object sender, RoutedEventArgs e)
