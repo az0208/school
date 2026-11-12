@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="42b33532-7db8-4cfc-9dad-a4f66a733be1"
+    Name="19cef464-47e2-43e9-85cf-e176be33385f"
     Publisher="CN=almog"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="42b33532-7db8-4cfc-9dad-a4f66a733be1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="19cef464-47e2-43e9-85cf-e176be33385f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>trafficlight</DisplayName>
+    <DisplayName>TrafficLights</DisplayName>
     <PublisherDisplayName>almog</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="trafficlight.App">
+      EntryPoint="TrafficLights.App">
       <uap:VisualElements
-        DisplayName="trafficlight"
+        DisplayName="TrafficLights"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="trafficlight"
+        Description="TrafficLights"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

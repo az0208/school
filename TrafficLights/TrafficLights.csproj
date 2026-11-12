@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{E11812AB-33C9-423E-94D8-530229200B57}</ProjectGuid>
+    <ProjectGuid>{CE882A5F-877E-4B6C-AD9A-EFF6B91A6D57}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>trafficlight</RootNamespace>
-    <AssemblyName>trafficlight</AssemblyName>
+    <RootNamespace>TrafficLights</RootNamespace>
+    <AssemblyName>TrafficLights</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.26100.0</TargetPlatformVersion>
