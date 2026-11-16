@@ -26,5 +26,15 @@ namespace TrafficLights
         {
             this.InitializeComponent();
         }
+
+        private void AutoButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ManualButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

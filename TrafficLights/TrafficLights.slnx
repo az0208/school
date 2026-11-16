@@ -5,7 +5,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="TrafficLights.csproj">
+  <Project Path="TrafficLights.csproj" Id="ce882a5f-877e-4b6c-ad9a-eff6b91a6d57">
     <Platform Solution="*|ARM" Project="ARM" />
     <Platform Solution="*|ARM64" Project="ARM64" />
     <Platform Solution="*|x64" Project="x64" />

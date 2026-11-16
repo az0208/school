@@ -6,9 +6,54 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="LightPink">
 
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="AutoButton" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="3" Content="Auto" FontSize="60" BorderBrush="WhiteSmoke" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="AutoButton_Click" ></Button>
+        <Button x:Name="ManualButton" Grid.Row="0" Grid.RowSpan="3" Grid.Column="14" Grid.ColumnSpan="3" Content="Manual" FontSize="60" BorderBrush="WhiteSmoke" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="ManualButton_Click" ></Button>
+        <Image x:Name="ImgRobot" Grid.Row="11" Grid.RowSpan="10" Grid.Column="0" Grid.ColumnSpan="4" Source="/Assets/Characters/Robot/RobotIdleLeftSide.gif" Width="500" Height="500"  />
+        <Image x:Name="ImgDino" Grid.Row="11" Grid.RowSpan="10" Grid.Column="10" Grid.ColumnSpan="7" Source="/Assets/Characters/Dino/DinoIdleRightSide.gif" Margin="10,46,10,-70" />
     </Grid>
 </Page>
