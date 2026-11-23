@@ -53,7 +53,7 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="AutoButton" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="3" Content="Auto" FontSize="60" BorderBrush="WhiteSmoke" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="AutoButton_Click" ></Button>
         <Button x:Name="ManualButton" Grid.Row="0" Grid.RowSpan="3" Grid.Column="14" Grid.ColumnSpan="3" Content="Manual" FontSize="60" BorderBrush="WhiteSmoke" BorderThickness="5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="ManualButton_Click" ></Button>
-        <Image x:Name="ImgRobot" Grid.Row="11" Grid.RowSpan="10" Grid.Column="0" Grid.ColumnSpan="4" Source="/Assets/Characters/Robot/RobotIdleLeftSide.gif" Width="500" Height="500"  />
-        <Image x:Name="ImgDino" Grid.Row="11" Grid.RowSpan="10" Grid.Column="10" Grid.ColumnSpan="7" Source="/Assets/Characters/Dino/DinoIdleRightSide.gif" Margin="10,46,10,-70" />
+        <Image x:Name="ImgRobot" Grid.Row="9" Grid.RowSpan="11" Grid.Column="0" Grid.ColumnSpan="6" Source="/Assets/Characters/Robot/RobotIdleLeftSide.gif" Margin="0,16,28,7"  />
+        <Image x:Name="ImgDino" Grid.Row="10" Grid.RowSpan="11" Grid.Column="10" Grid.ColumnSpan="7" Source="/Assets/Characters/Dino/DinoIdleRightSide.gif" Margin="10,15,10,9" />
     </Grid>
 </Page>
